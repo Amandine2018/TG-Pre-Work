@@ -1,7 +1,11 @@
-function monitorCount(rows, columns){
+function monitorCount(rows, columns) {
   return rows * columns;
 }
 
-const numOfMonitors = monitorCount(5,4);
+function costOfMonitors(rows, columns){
+  return monitorCount(rows, columns) * 200;
+}
 
-console.log(numOfMonitors);
+const totalCost = costOfMonitors(5,4);
+
+console.log(totalCost);
