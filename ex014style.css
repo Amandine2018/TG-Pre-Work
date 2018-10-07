@@ -9,10 +9,17 @@ body {
   background-color: #F2F2F2;
 }
 
+h1 {
+  color: white;
+  font-size: 28px;
+  font-family: Georgia;
+}
+
 h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 2.5;
+  font-family: Georgia;
 }
 
 a {
@@ -21,6 +28,7 @@ a {
 
 p {
   margin: 16px 0;
+  font-family: Helvetica;
 }
 
 strong {
@@ -60,19 +68,6 @@ a.home {
   color: #4D00FF;
 }
 
-@media only screen and (max-width: 535px) {
-  .header {
-    font-size: 14px;
-  }
-
-  .header a {
-    padding: 30px 20px;
-  }
-
-  a.home {
-    display: none;
-  }
-}
 
 /* Banner Section */
 
@@ -144,4 +139,20 @@ a.home {
 .italic {
   font-weight: normal;
   font-style: italic;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 535px) {
+  .header {
+    font-size: 14px;
+  }
+
+  .header a {
+    padding: 30px 20px;
+  }
+
+  a.home {
+    display: none;
+  }
 }
