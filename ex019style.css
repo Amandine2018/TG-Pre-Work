@@ -15,6 +15,7 @@ main {
   justify-content: center;
   align-items: stretch;
   height: 1600px;
+  align-content: end;
 }
 
 h2 {
