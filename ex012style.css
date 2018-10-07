@@ -72,7 +72,8 @@ body {
 
 /* Typography */
 h1 {
-  color: #41292C;
+  color: MidnightBlue;
+  background-color: Aqua;
   font-family: 'Covered By Your Grace', sans-serif;
   font-size: 100px;
   line-height: 76px;
