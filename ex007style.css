@@ -22,3 +22,11 @@ h1 {
 .publish-time {
   color: gray;
 }
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
