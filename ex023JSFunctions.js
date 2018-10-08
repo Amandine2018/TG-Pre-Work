@@ -1,4 +1,4 @@
-const plantNeedsWater = function(day){
+const plantNeedsWater = (day) => {
   if (day === 'Wednesday') {
     return true;
   } else {
@@ -7,3 +7,4 @@ const plantNeedsWater = function(day){
 }
 
 console.log(plantNeedsWater('Tuesday'));
+console.log(plantNeedsWater('Wednesday'));
