@@ -1,5 +1,8 @@
-let Airplane = {
-};
-Airplane.myAirplane = "StarJet";
+const Airplane = {};
 
-module.exports = Airplane;
+module.exports = {
+  myAirplane: "CloudJet",
+  displayAirplane: function() {
+  	return this.myAirplane;
+	}
+};
