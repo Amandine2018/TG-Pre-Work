@@ -1,15 +1,3 @@
-let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
 
-const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
-
-condiments[0] = ('Mayo');
-console.log(condiments);
-
-condiments = ['Mayo'];
-console.log(condiments);
-
-utensils[3] = ('Spoon');
-console.log(utensils);
-
-utensils = ['spoon'];
-console.log(utensils);
+console.log(objectives.length);
