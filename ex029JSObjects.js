@@ -1,14 +1,32 @@
-let retreatMessage = 'We no longer wish to conquer your planet. It is full of dogs, which we do not care for.';
-
-// Write your code below
-const alienShip = {
-  retreat () {
-    console.log(retreatMessage);
+let spaceship = {
+  passengers: [{ name: 'Tom'}],
+  telescope: {
+    yearBuilt: 2018,
+    model: "91031-XLT",
+    focalLength: 2032
   },
-  takeOff () {
-  console.log('Spim... Borp... Glix... Blastoff!');
-	}
+  crew: {
+    captain: {
+      name: 'Sandra',
+      degree: 'Computer Engineering',
+      encourageTeam() { console.log('We got this!') },
+     'favorite foods': ['cookies', 'cakes', 'candy', 'spinach'] }
+  },
+  engine: {
+    model: "Nimbus2000"
+  },
+  nanoelectronics: {
+    computer: {
+      terabytes: 100,
+      monitors: "HD"
+    },
+    backup: {
+      battery: "Lithium",
+      terabytes: 50
+    }
+  }
 };
 
-alienShip.retreat();
-alienShip.takeOff();
+const capFave = spaceship.crew.captain['favorite foods'][0];
+
+const firstPassenger = spaceship.passengers[0];
