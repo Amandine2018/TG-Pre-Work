@@ -1,8 +1,7 @@
-const cards = ['diamond', 'spade', 'heart', 'club'];
+cupsOfSugarNeeded = 2;
 
-let currentCard
+cupsAdded = 0;
 
-while (currentCard != 'spade') {
-  currentCard = cards[Math.floor(Math.random() * 4)];
-  console.log(currentCard);
-}
+do {
+  cupsAdded ++
+} while (cupsAdded < cupsOfSugarNeeded);
