@@ -1,13 +1,14 @@
-let spaceship = {
-  'Fuel Type' : 'Turbo Fuel',
-  homePlanet : 'Earth',
-  color: 'silver',
-  'Secret Mission' : 'Discover life outside of Earth.'
-};
+let retreatMessage = 'We no longer wish to conquer your planet. It is full of dogs, which we do not care for.';
 
 // Write your code below
-spaceship.color = 'glorious gold';
+const alienShip = {
+  retreat () {
+    console.log(retreatMessage);
+  },
+  takeOff () {
+  console.log('Spim... Borp... Glix... Blastoff!');
+	}
+};
 
-spaceship.numEngines = 6;
-
-delete spaceship['Secret Mission'];
+alienShip.retreat();
+alienShip.takeOff();
