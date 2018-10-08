@@ -1,4 +1,4 @@
-import { availableAirplanes, flightRequirements, meetsStaffRequirements} from './airplane';
+import { availableAirplanes, flightRequirements, meetsStaffRequirements} from './ex033JSModulesAirplanes';
 
 import meetsSpeedRangeRequirements from './airplane';
 
