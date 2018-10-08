@@ -1,9 +1,13 @@
 const robot = {
-  _energyLevel: 'high',
-  recharge(){
-    this._energyLevel += 30;
-    console.log(`Recharged! Energy is currently at ${this._energyLevel}%.`)
+  _model: '1E78V2',
+  _energyLevel: 100,
+  get energyLevel() {
+    if (typeof this._energyLevel == 'number') {
+      return `My current energy level is ${this._energyLevel}`;
+    } else {
+      return 'System malfunction: cannot retrieve energy level';
+    }
   }
 };
 
-robot.recharge();
+console.log(robot.energyLevel);
