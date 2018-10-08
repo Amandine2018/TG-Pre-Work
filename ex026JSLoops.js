@@ -1,6 +1,4 @@
-// Write your code below
-const vacationSpots= ['Venice','Denali NP', 'Sevilla'];
-
-console.log(vacationSpots[0]);
-console.log(vacationSpots[1]);
-console.log(vacationSpots[2]);
+// The loop below loops from 0 to 3. Edit it to loop backwards from 3 to 0
+for (let counter = 3; counter >= 0; counter--){
+  console.log(counter)
+};
