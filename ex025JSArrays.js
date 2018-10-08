@@ -1,13 +1,18 @@
-const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+const concept = ['arrays', 'can', 'be', 'mutated'];
 
-groceryList.shift();
+function changeArr(arr){
+  arr[3] = 'MUTATED';
+}
 
-groceryList.unshift('popcorn');
+changeArr(concept);
 
-console.log(groceryList.slice(1,4));
+console.log(concept);
 
-console.log(groceryList);
+function removeElement(newArr) {
+  newArr.pop();
+}
 
-const pastaIndex = groceryList.indexOf('pasta');
+removeElement(concept);
 
-console.log(pastaIndex);
+console.log(concept);
+         
