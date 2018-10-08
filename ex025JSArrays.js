@@ -1,18 +1,5 @@
-const concept = ['arrays', 'can', 'be', 'mutated'];
+const numberClusters = [[1, 2], [3, 4], [5, 6]];
 
-function changeArr(arr){
-  arr[3] = 'MUTATED';
-}
+const target = numberClusters[2][1];
 
-changeArr(concept);
-
-console.log(concept);
-
-function removeElement(newArr) {
-  newArr.pop();
-}
-
-removeElement(concept);
-
-console.log(concept);
-         
+console.log(target);
