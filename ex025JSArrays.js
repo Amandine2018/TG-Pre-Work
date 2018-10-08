@@ -1,5 +1,15 @@
-let groceryList = ['bread', 'tomatoes', 'milk'];
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
 
-groceryList[1] = 'avocados';
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
 
-console.log(groceryList);
+condiments[0] = ('Mayo');
+console.log(condiments);
+
+condiments = ['Mayo'];
+console.log(condiments);
+
+utensils[3] = ('Spoon');
+console.log(utensils);
+
+utensils = ['spoon'];
+console.log(utensils);
