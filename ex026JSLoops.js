@@ -1,7 +1,10 @@
-cupsOfSugarNeeded = 2;
+const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
 
-cupsAdded = 0;
+for (let rapperArrayIndex = 0; rapperArrayIndex < rapperArray.length; rapperArrayIndex++) {
+  console.log(rapperArray[rapperArrayIndex]);
+  if (rapperArray[rapperArrayIndex] === 'Notorious B.I.G.') {
+    break;
+  }
+};
 
-do {
-  cupsAdded ++
-} while (cupsAdded < cupsOfSugarNeeded);
+console.log("And if you don't know, now you know.");
