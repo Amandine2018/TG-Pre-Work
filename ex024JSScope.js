@@ -4,3 +4,5 @@ function logVisibleLightWaves(){
 }
 
 logVisibleLightWaves();
+
+console.log(lightWaves);
