@@ -1,3 +1,5 @@
-const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
 
-console.log(objectives.length);
+chores.push('clean the bathroom', 'mow the lawn');
+
+console.log(chores);
