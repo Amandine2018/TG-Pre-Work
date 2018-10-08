@@ -1,4 +1,13 @@
-const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
 
-chores.pop();
-console.log(chores);
+groceryList.shift();
+
+groceryList.unshift('popcorn');
+
+console.log(groceryList.slice(1,4));
+
+console.log(groceryList);
+
+const pastaIndex = groceryList.indexOf('pasta');
+
+console.log(pastaIndex);
