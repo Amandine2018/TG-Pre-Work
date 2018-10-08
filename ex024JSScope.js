@@ -1,8 +1,11 @@
-function logVisibleLightWaves(){
-  const lightWaves = 'Moonlight';
-  console.log(lightWaves);
-}
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+let stars = 'North Star';
 
-logVisibleLightWaves();
+const callMyNightSky = () => {
+  stars = 'Sirius';
+	return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+};
 
-console.log(lightWaves);
+console.log(callMyNightSky());
+console.log(stars);
